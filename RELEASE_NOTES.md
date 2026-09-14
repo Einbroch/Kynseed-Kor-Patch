@@ -224,3 +224,15 @@ ZIP 구조는 동봉된 `INSTALL.md`에 기록했습니다.
 
 이 패치는 게임을 보유한 사용자가 자신의 사본에 적용하는 용도입니다. 원본 게임 데이터는
 포함되어 있지 않습니다.
+
+## 9. 공개 배포
+
+| 항목 | 값 |
+|---|---|
+| 저장소 | https://github.com/Einbroch/Kynseed-Kor-Patch |
+| 릴리스 | https://github.com/Einbroch/Kynseed-Kor-Patch/releases/tag/v1.1.0 |
+| 자산 | `0100783020A1A000.zip` (3,046,640) + `SHA256SUMS.txt` |
+| 공개일 | 2026-09-14 |
+
+저장소에는 문서만 두고 패치 파일은 릴리스 자산으로 배포한다. 원본 게임 데이터·키·
+펌웨어는 저장소·릴리스 어디에도 넣지 않으며 `.gitignore` 로 막는다.
