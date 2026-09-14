@@ -1,0 +1,9 @@
+# 원본 게임 데이터·키·펌웨어는 이 저장소에 들어오지 않는다
+*.nsp
+*.xci
+*.nca
+*.keys
+prod.keys
+title.keys
+romfs/
+_work/
