@@ -5,10 +5,10 @@
 | 버전 | `v1.1.1` |
 | 날짜 | 2026-09-15 |
 | build_id | `FINAL` |
-| canonical | `0100783020A1A000.zip` (3,046,632 bytes) |
-| SHA-256 | `880BE37B7650BA638C65A49CFE6CE552ABE583974D57D5A314CABE9A1593C739` |
-| 대안 패키지 | `0100783020A1A000-ENslot.zip` (3,704,469 bytes) — 아래 §1 |
-| SHA-256 (대안) | `F5E1B0129AE492A651B69333B458543BDB2B4DC2B16E2F65C7AE2DA41182CFC6` |
+| canonical | `0100783020A1A000.zip` (3,050,832 bytes) |
+| SHA-256 | `1B8D0ED3634EAE8D979D089987BD65252C93EEF4F8354E3047F57382D19EA45D` |
+| 대안 패키지 | `0100783020A1A000-ENslot.zip` (3,708,669 bytes) — 아래 §1 |
+| SHA-256 (대안) | `11B7BB848FF823C4FEB26DD093BD3C2164DDE8569A4BF319B08ED61DB74A4922` |
 | 대상 | Kynseed (NSW) `0100783020A1A000` + 업데이트 1.0.0.54 |
 | 상태 | **PASS (bench) + PASS (runtime, PC/Android 부분)** — 아래 §7 |
 
@@ -189,7 +189,7 @@ Kynseed Switch판은 **이미 공식 한국어를 탑재**하고 있습니다. �
 | 어조 게이트 6종 (`check_voice.py`) | 발화 4,799행, 위반 **0** |
 | 이미지 캔버스·모드·비대상 프레임 | 전부 보존 |
 | ZIP 결정성 | 두 번 조립해 바이트 동일 |
-| ZIP 재열기·전개 | entry 69, payload 전수 일치, CRC 통과 |
+| ZIP 재열기·전개 | entry 70(= romfs 69 + `Readme.txt`), payload 전수 일치, CRC 통과 |
 
 ## 6. 시험 환경
 
